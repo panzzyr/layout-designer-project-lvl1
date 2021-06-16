@@ -28,3 +28,34 @@
     font-family: "OpenSans";
     src: url(../fonts/OpenSans-Bold.ttf);
 }
+
+body {
+    font-family: "OpenSans";
+    font-size: 16px;
+    line-height: 1.6em;
+    color: var(--dark);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Neucha";
+    line-height: 1.2em;
+ }
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+section {
+    max-width: 1110px;
+    position: center;
+    text-align: center;
+    margin: 100 0 100;
+}
