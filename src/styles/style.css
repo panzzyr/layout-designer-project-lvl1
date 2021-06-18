@@ -1,5 +1,5 @@
-/** CSS STYLE **/
-:default {
+/** CSS STYLE heeeeey **/
+:root {
     --white: #fff;
     --half-white: #d7ccc0;
     --light: #f5f4f0;
@@ -34,6 +34,7 @@ body {
     font-size: 16px;
     line-height: 1.6em;
     color: var(--dark);
+    background-color: var(--light);
 }
 
 h1, h2, h3, h4, h5 {
@@ -53,9 +54,52 @@ h3 {
     font-size: 34px;
 }
 
-section {
-    max-width: 1110px;
-    position: center;
-    text-align: center;
-    margin: 100 0 100;
+section::before {
+    background-image: url(../images/background.png);
+    content: "";
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.1;
+    width: 1440px;
+    height: 914px;
+    left: 0px;
+    top: 0px;
+    background-color: var(--half-white);
+}
+
+.position-relative {
+    position: relative;
+}
+
+.color-main {
+    color: var(--main);
+}
+
+.first-heading {
+    position: absolute;
+    left: 165px;
+    top: 100px;
+}
+
+.img-main {
+    position: relative;
+    height: 525px;
+    top: 55px;
+    left: 461px;
+}
+
+.columns-2 {
+    column-count: 2;
+    column-gap: 5px;
+    column-width: 540px;
+}
+
+.first-text {
+    margin-left: 165px;
+}
+
+.button {
+    
 }
